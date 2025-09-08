@@ -42,6 +42,12 @@ This repo is mainly for my personal practice, but if you have suggestions or fin
 
 ---
 
+## 📬 Contact
+- **Author:** Arpit Kumar  
+- **E-mail:** [arpitkumar19842@gmail.com](mailto:arpitkumar19842@gmail.com)  
+- **LinkedIn:** [Arpit Kumar](https://www.linkedin.com/in/arpit-kumar-569361296/)  
+
+---
 
 
 
