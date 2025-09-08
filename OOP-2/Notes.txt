@@ -1,0 +1,74 @@
+In Object-Oriented Programming (OOP), the 4 main pillars (also called principles or features) are:
+
+🧱 1. Encapsulation
+🔒 "Wrapping data and methods together"
+Bundling data (variables) and functions (methods) that operate on the data into a single unit (class).
+
+Hides internal details; only exposes what’s necessary through public methods (getters/setters).
+
+class Student {
+private:
+    int age;           // hidden from outside
+public:
+    void setAge(int a) { age = a; }
+    int getAge() { return age; }
+};
+
+
+
+
+🧱 2. Abstraction
+🧼 "Showing only essential details"
+Hiding complex implementation and showing only the necessary parts to the user.
+
+Helps reduce complexity and increase reusability.
+
+
+🧱 3. Inheritance
+👨‍👦 "Reusing existing code"
+A class (child/derived class) can inherit properties and behavior from another class (parent/base class).
+
+Promotes code reuse.
+
+class Animal {
+public:
+    void speak() { cout << "Animal sound"; }
+};
+
+class Dog : public Animal {
+    // Inherits speak()
+};
+
+1. ****** Single inheritance
+2. ****** Multi level inheritance
+3. ****** Multiple inheritance
+4. ****** Hybrid inheritance
+5. ****** Hierarchical inheritance
+
+
+🔄 Polymorphism = One name, many forms
+It means the same function or method can behave differently based on the object that calls it.
+
+✅ Types of Polymorphism:
+1. Compile-time Polymorphism (Early binding)
+➡️ Happens during compilation.
+
+✅ Function Overloading – same function name, different parameters.
+✅ Operator Overloading
+
+2. Runtime Polymorphism (Late binding)
+➡️ Happens during program execution (using virtual functions).
+
+✅ Function Overriding – same function name in parent and child classes.
+class Animal {
+public:
+    virtual void sound() { cout << "Animal sound\n"; }
+};
+
+class Dog : public Animal {
+public:
+    void sound() override { cout << "Dog barks\n"; }
+};
+
+Animal* a = new Dog();
+a->sound();  // Output: Dog barks (not Animal sound)

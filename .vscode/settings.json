@@ -1,0 +1,12 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "map": "cpp",
+        "new": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/g++-13",
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+}

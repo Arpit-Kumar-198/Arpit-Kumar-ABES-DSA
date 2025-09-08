@@ -1,0 +1,2 @@
+leetcode 1005
+leetcode 1710
