@@ -1,49 +1,47 @@
 # Arpit-Kumar-ABES-DSA
 
-Welcome to my **DSA (Data Structures & Algorithms)** repository! This is where I share everything I've learned over the past **1.5 years**, alongside future projects and practice work.
+Welcome to my **Data Structures & Algorithms (DSA)** repository!  
+This is a collection of everything I’ve practiced and learned over the past **1.5 years**, along with the work I’ll continue to add in the future.  
 
 ---
 
-##  Repository Overview
+## 📌 Repository Overview
 
-- **Purpose**  
-  This repo documents my learning path in DSA—from revisiting the fundamentals to mastering advanced concepts. Whether you're a beginner exploring DSA or curious about my journey, you're in the right place.
+- **Goal**  
+  To track my DSA learning journey, from basics to advanced concepts, and to share it with anyone who wants to learn or revise.
 
-- **What You'll Find Here**  
-  Organized topic-wise into folders such as:
+- **What’s Inside**  
+  The repository is organized topic-wise, including:
   - `Arrays`
   - `LinkedList`
   - `Recursion`
   - `Dynamic Programming (DP)`
-  - `Graphs` / `Heaps` / `Greedy` / `Searching` / `Sorting`
-  - `Tree` (BST, Binary Tree)
-  - `OOP concepts`, `Functions and Pointers`
+  - `Graphs`, `Heaps`, `Greedy`, `Searching`, `Sorting`
+  - `Trees` (Binary Tree, BST)
+  - `OOP Concepts`, `Functions`, `Pointers`
   - `STL` (C++ Standard Template Library)
   - `Pattern Printing`, `Math & Prime Numbers`, and more.
-  - Helpful reference files like `DSA-Sheets.txt` and `Aptitude-Topics.txt`
+  - Extra resources like `DSA-Sheets.txt` and `Aptitude-Topics.txt`
 
-- **Technology Stack**  
-  - All solutions are written in **C++**.
-
----
-
-##  My Journey & Highlights
-
-- Documenting a **1.5-year learning journey** in DSA.
-- Gradually expanding from beginner-level topics (loops, arrays) to advanced topics (DP, graph algorithms).
-- Regularly structured, topic-focused approach to practice and revision.
+- **Language Used**  
+  All solutions are written in **C++**.
 
 ---
 
-##  Getting Involved
+## 🌱 My Journey
 
-I’d love to collaborate or hear your suggestions!  
-You can reach me via GitHub or email if it's linked to my profile.
+- Practicing DSA consistently for the last **1.5 years**.  
+- Started from basics (loops, arrays) and moved toward advanced concepts (DP, Graphs, etc.).  
+- Created a structured collection for **easy revision** and **future practice**.  
+
+---
+
+## 🤝 Contribution
+
+This repo is mainly for my personal practice, but if you have suggestions or find improvements, feel free to open an issue or create a pull request.  
 
 ---
 
-##  License
 
-This project is open source—feel free to use and adapt for your own learning!
 
----
+
