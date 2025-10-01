@@ -1,8 +1,12 @@
 CP sheet : 
 https://takeuforward.org/interview-experience/strivers-cp-sheet/?utm_source=youtube&utm_medium=striver&utm_campaign=yt_video
 
-DSA SDE-1 sheet : 
-https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
-
 Pattern DSA sheet :
 https://learnyard.com/practice/dsa
+
+Love babbar Sheet:
+https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/
+
+
+Striver SDE Sheet:
+https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems

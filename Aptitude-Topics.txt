@@ -1,84 +1,49 @@
-https://learn.knowledgegate.ai/learn/Free-Content-for-Placement-Exams
-Quantitative Aptitude:
+Verbal Ability Topics:
+https://www.geeksforgeeks.org/aptitude/aptitude-questions-and-answers/
 
-Numbers (properties, number systems, operations)
 
-LCM & HCF
+1. Quantitative Aptitude (Maths)
 
-Percentage
+Arithmetic (Most Important – majority of questions)
 
-Average
+Number System (divisibility, remainders, factors, HCF/LCM, last digit rules)
 
-Ratio and Proportion
+Percentages & Averages
 
-Profit and Loss
+Ratio, Proportion, Partnership
 
-Simple and Compound Interest
+Profit, Loss, Discount, Marked Price
 
-Mixtures and Alligation
+Simple Interest & Compound Interest
 
-Time and Work
+Time, Speed & Distance (boats, trains, relative speed)
 
-Time, Speed and Distance
+Time & Work, Pipes & Cisterns
 
-Algebra
+Mixtures & Alligations
 
-Geometry
+Ages Problems
 
-Trigonometry, Height & Distance
+Algebra & Higher Math
 
-Pipes and Cisterns
+Linear & Quadratic Equations
 
-Age Problems
+Progressions (AP, GP, HP)
 
-Probability
+Logarithms & Surds (sometimes)
 
-Permutation and Combination
+Geometry & Mensuration (basic level)
 
-Logical Reasoning
-Blood Relations
+Triangles, Circles, Polygons (basic properties)
 
-Coding-Decoding
+Area, Volume, Surface Area
 
-Direction Sense
+Probability & Combinatorics
 
-Analogy
+Permutation & Combination
 
-Statement & Conclusion
+Probability (cards, dice, coins)
 
-Arrangements (Seating, Linear, Circular)
+Data Handling
 
-Series and Patterns
-
-Syllogisms
-
-Data Sufficiency
-
-Critical Reasoning
-
-Logical Sequence of Words
-
-Situational Judgment
-
-Verbal Ability
-Reading Comprehension
-
-Grammar (parts of speech, tense, error finding, sentence correction)
-
-Vocabulary (synonyms, antonyms, word usage)
-
-Fill in the Blanks
-
-Sentence Correction
-
-Verbal Reasoning (analogies, critical reasoning)
-
-Data Interpretation
-Pie Charts
-
-Bar Graphs
-
-Line Graphs
-
-Tables
-
+Data Interpretation (tables, bar graph, line graph, pie chart)

@@ -1,0 +1,194 @@
+🏆 DSA Must-Solve Pattern Problems List
+
+1. Sliding Window & Two Pointers
+
+Maximum Sum Subarray of Size K (LC 643 / GFG)
+
+Longest Substring Without Repeating Characters (LC 3)
+
+Longest Substring with At Most K Distinct Characters (LC 340)
+
+Minimum Window Substring (LC 76)
+
+Fruit Into Baskets (LC 904)
+
+Trapping Rain Water (LC 42)
+
+Container With Most Water (LC 11)
+
+2. Binary Search (Array + Search Space)
+
+Binary Search (LC 704)
+
+First & Last Position in Sorted Array (LC 34)
+
+Search in Rotated Sorted Array (LC 33)
+
+Find Minimum in Rotated Sorted Array (LC 153)
+
+Peak Element in Array (LC 162)
+
+Aggressive Cows / Allocate Books (GFG)
+
+Split Array Largest Sum (LC 410)
+
+3. Prefix Sum / Hashing
+
+Subarray Sum Equals K (LC 560)
+
+Continuous Subarray Sum (LC 523)
+
+Maximum Length Subarray with Sum = K (GFG)
+
+Longest Substring with Equal 0s and 1s (LC 525 idea)
+
+Range Sum Query (LC 303, LC 307 with segment tree)
+
+Subarray XOR (GFG)
+
+4. Intervals & Greedy
+
+Merge Intervals (LC 56)
+
+Insert Interval (LC 57)
+
+Non-overlapping Intervals (LC 435)
+
+Meeting Rooms II (LC 253)
+
+Minimum Number of Arrows to Burst Balloons (LC 452)
+
+Activity Selection (GFG classic)
+
+5. Recursion & Backtracking
+
+Subsets (LC 78)
+
+Subsets II (LC 90)
+
+Permutations (LC 46)
+
+Combination Sum (LC 39)
+
+Word Search (LC 79)
+
+N-Queens (LC 51)
+
+Sudoku Solver (LC 37)
+
+6. Divide & Conquer
+
+Merge Sort implementation
+
+Quick Sort implementation
+
+Count Inversions (GFG)
+
+Maximum Subarray (LC 53 via divide & conquer)
+
+Kth Largest Element (LC 215, quickselect)
+
+Median of Two Sorted Arrays (LC 4)
+
+7. Dynamic Programming
+1D DP
+
+Climbing Stairs (LC 70)
+
+House Robber (LC 198)
+
+Maximum Subarray (LC 53 Kadane)
+
+Jump Game (LC 55)
+
+Coin Change (LC 322)
+
+2D Grid DP
+
+Unique Paths (LC 62)
+
+Minimum Path Sum (LC 64)
+
+Dungeon Game (LC 174)
+
+Knapsack Patterns
+
+0/1 Knapsack (GFG)
+
+Partition Equal Subset Sum (LC 416)
+
+Target Sum (LC 494)
+
+Unbounded Knapsack → Coin Change II (LC 518)
+
+DP on Subsequences / Strings
+
+Longest Common Subsequence (LC 1143)
+
+Edit Distance (LC 72)
+
+Palindromic Substrings (LC 647)
+
+Longest Palindromic Subsequence (LC 516)
+
+Advanced DP
+
+Longest Increasing Subsequence (LC 300)
+
+Russian Doll Envelopes (LC 354)
+
+Word Break (LC 139)
+
+Minimum Number of Jumps (LC 45)
+
+8. Graphs
+
+DFS / BFS Traversal (GFG standard)
+
+Number of Islands (LC 200)
+
+Flood Fill (LC 733)
+
+Course Schedule (LC 207, Topological Sort)
+
+Alien Dictionary (GFG)
+
+Detect Cycle in Directed Graph (GFG)
+
+Shortest Path in Unweighted Graph (LC 1091)
+
+Dijkstra’s Algorithm → Network Delay Time (LC 743)
+
+Minimum Spanning Tree (Kruskal/Prim, GFG)
+
+Union-Find → Redundant Connection (LC 684)
+
+9. Advanced Data Structures
+
+Next Greater Element (LC 496)
+
+Daily Temperatures (LC 739)
+
+Sliding Window Maximum (LC 239)
+
+Min Stack (LC 155)
+
+Kth Largest Element in a Stream (LC 703)
+
+Merge K Sorted Lists (LC 23)
+
+Median of Data Stream (LC 295)
+
+Segment Tree / Fenwick → Range Sum Query (LC 307)
+
+10. Strings & Tries
+
+Implement Trie (LC 208)
+
+Word Search II (LC 212)
+
+Longest Common Prefix (LC 14)
+
+Rabin-Karp / KMP → Implement strstr (LC 28)
+
+Longest Duplicate Substring (LC 1044)
