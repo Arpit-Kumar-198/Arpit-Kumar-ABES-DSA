@@ -1,8 +1,4 @@
-Verbal Ability Topics:
-https://www.geeksforgeeks.org/aptitude/aptitude-questions-and-answers/
-
-
-1. Quantitative Aptitude (Maths)
+Quantitative Aptitude (Maths):
 
 Arithmetic (Most Important – majority of questions)
 

@@ -1,194 +1,308 @@
-🏆 DSA Must-Solve Pattern Problems List
 
-1. Sliding Window & Two Pointers
+⚡ Important Two Pointer Problems (Covers Every Pattern)
 
-Maximum Sum Subarray of Size K (LC 643 / GFG)
+LC 167 – Two Sum II (Input Array Is Sorted)
 
-Longest Substring Without Repeating Characters (LC 3)
+LC 15 – 3Sum
 
-Longest Substring with At Most K Distinct Characters (LC 340)
+LC 11 – Container With Most Water
 
-Minimum Window Substring (LC 76)
+LC 42 – Trapping Rain Water 
 
-Fruit Into Baskets (LC 904)
+LC 26 – Remove Duplicates from Sorted Array
 
-Trapping Rain Water (LC 42)
+LC 283 – Move Zeroes
 
-Container With Most Water (LC 11)
+LC 125 – Valid Palindrome
 
-2. Binary Search (Array + Search Space)
+LC 75 – Sort Colors (Dutch National Flag)
 
-Binary Search (LC 704)
 
-First & Last Position in Sorted Array (LC 34)
 
-Search in Rotated Sorted Array (LC 33)
+2️⃣ Sliding Window (Day 6-8)
 
-Find Minimum in Rotated Sorted Array (LC 153)
+LC 3 – Longest Substring Without Repeating Characters
 
-Peak Element in Array (LC 162)
+LC 76 – Minimum Window Substring 
 
-Aggressive Cows / Allocate Books (GFG)
+LC 567 – Permutation in String
 
-Split Array Largest Sum (LC 410)
+LC 438 – Find All Anagrams in a String 
 
-3. Prefix Sum / Hashing
+LC 239 – Sliding Window Maximum *
 
-Subarray Sum Equals K (LC 560)
+LC 209 – Minimum Size Subarray Sum 
 
-Continuous Subarray Sum (LC 523)
+LC 904  – Fruits in Basket 
 
-Maximum Length Subarray with Sum = K (GFG)
 
-Longest Substring with Equal 0s and 1s (LC 525 idea)
+⚡ Prefix Sum & Suffix Sum (Covers All Patterns)
 
-Range Sum Query (LC 303, LC 307 with segment tree)
+LC 560 – Subarray Sum Equals K (core prefix sum + hashmap pattern)
 
-Subarray XOR (GFG)
+LC 523 – Continuous Subarray Sum (prefix sum with modulo trick)
 
-4. Intervals & Greedy
+LC 974 – Subarray Sums Divisible by K (pattern extension of )
 
-Merge Intervals (LC 56)
+LC 238 – Product of Array Except Self (suffix + prefix product logic)
 
-Insert Interval (LC 57)
+LC 303 – Range Sum Query - Immutable (basic prefix array use)
 
-Non-overlapping Intervals (LC 435)
+LC 304 – Range Sum Query 2D - Immutable (2D prefix sum)
 
-Meeting Rooms II (LC 253)
+LC 930 – Binary Subarrays With Sum (prefix + sliding window hybrid)
 
-Minimum Number of Arrows to Burst Balloons (LC 452)
+LC 1248 – Count Number of Nice Subarrays (prefix + hashmap count pattern)
 
-Activity Selection (GFG classic)
 
-5. Recursion & Backtracking
+⚡ Kadane’s Algorithm & Variations (All Subarray Max/Min Patterns)
 
-Subsets (LC 78)
+LC 53 – Maximum Subarray (classic Kadane’s Algo)
 
-Subsets II (LC 90)
+LC 918 – Maximum Sum Circular Subarray (Kadane + wraparound)
 
-Permutations (LC 46)
+LC 152 – Maximum Product Subarray (Kadane variant for product)
 
-Combination Sum (LC 39)
+LC 1749 – Maximum Absolute Sum of Any Subarray (positive/negative Kadane)
 
-Word Search (LC 79)
+LC 689 – Maximum Sum of 3 Non-Overlapping Subarrays (DP + prefix hybrid)
 
-N-Queens (LC 51)
+LC 1191 – K-Concatenation Maximum Sum (Kadane + large input trick)
 
-Sudoku Solver (LC 37)
+LC 363 – Max Sum of Rectangle No Larger Than K (2D Kadane pattern)
 
-6. Divide & Conquer
 
-Merge Sort implementation
+⚡ Cyclic Sort Pattern (All Variations)
 
-Quick Sort implementation
+LC 268 – Missing Number (basic cyclic sort use)
 
-Count Inversions (GFG)
+LC 448 – Find All Numbers Disappeared in an Array (core pattern)
 
-Maximum Subarray (LC 53 via divide & conquer)
+LC 287 – Find the Duplicate Number (Floyd’s cycle + cyclic sort idea)
 
-Kth Largest Element (LC 215, quickselect)
+LC 442 – Find All Duplicates in an Array (same base pattern)
 
-Median of Two Sorted Arrays (LC 4)
+LC 41 – First Missing Positive (most important hard variation)
 
-7. Dynamic Programming
-1D DP
+LC 645 – Set Mismatch (combo of missing + duplicate detection)
 
-Climbing Stairs (LC 70)
 
-House Robber (LC 198)
 
-Maximum Subarray (LC 53 Kadane)
+3️⃣ Binary Search & Sorting (Day 9-11)
 
-Jump Game (LC 55)
+LC 34 – Find First and Last Position of Element
 
-Coin Change (LC 322)
+LC 74 – Search a 2D Matrix
 
-2D Grid DP
+LC 875 – Koko Eating Bananas
 
-Unique Paths (LC 62)
+LC 410 – Split Array Largest Sum
 
-Minimum Path Sum (LC 64)
+LC 315 – Count of Smaller Numbers After Self
 
-Dungeon Game (LC 174)
 
-Knapsack Patterns
+4️⃣ Stack & Monotonic Patterns (Day 12-14)
 
-0/1 Knapsack (GFG)
+LC 20 – Valid Parentheses
 
-Partition Equal Subset Sum (LC 416)
+LC 155 – Min Stack
 
-Target Sum (LC 494)
+LC 739 – Daily Temperatures
 
-Unbounded Knapsack → Coin Change II (LC 518)
+LC 84 – Largest Rectangle in Histogram
 
-DP on Subsequences / Strings
+LC 85 – Maximal Rectangle
 
-Longest Common Subsequence (LC 1143)
 
-Edit Distance (LC 72)
+5️⃣ Linked List (Day 15-17)
 
-Palindromic Substrings (LC 647)
+LC 206 – Reverse Linked List
 
-Longest Palindromic Subsequence (LC 516)
+LC 141 – Linked List Cycle
 
-Advanced DP
+LC 19 – Remove Nth Node From End
 
-Longest Increasing Subsequence (LC 300)
+LC 21 – Merge Two Sorted Lists
 
-Russian Doll Envelopes (LC 354)
+LC 23 – Merge k Sorted Lists
 
-Word Break (LC 139)
+LC 138 – Copy List with Random Pointer
 
-Minimum Number of Jumps (LC 45)
+LC 160 – Intersection of Two Linked Lists
 
-8. Graphs
 
-DFS / BFS Traversal (GFG standard)
+6️⃣ Recursion & Backtracking (Day 18-21)
 
-Number of Islands (LC 200)
+LC 46 – Permutations
 
-Flood Fill (LC 733)
+LC 39 – Combination Sum
 
-Course Schedule (LC 207, Topological Sort)
+LC 40 – Combination Sum II
 
-Alien Dictionary (GFG)
+LC 78 – Subsets
 
-Detect Cycle in Directed Graph (GFG)
+LC 90 – Subsets II
 
-Shortest Path in Unweighted Graph (LC 1091)
+LC 79 – Word Search
 
-Dijkstra’s Algorithm → Network Delay Time (LC 743)
+LC 51 – N-Queens
 
-Minimum Spanning Tree (Kruskal/Prim, GFG)
+LC 22 – Generate Parentheses
 
-Union-Find → Redundant Connection (LC 684)
 
-9. Advanced Data Structures
+7️⃣ Binary Trees (Day 22-26)
 
-Next Greater Element (LC 496)
+LC 104 – Maximum Depth of Binary Tree
 
-Daily Temperatures (LC 739)
+LC 110 – Balanced Binary Tree
 
-Sliding Window Maximum (LC 239)
+LC 543 – Diameter of Binary Tree
 
-Min Stack (LC 155)
+LC 100 – Same Tree
 
-Kth Largest Element in a Stream (LC 703)
+LC 101 – Symmetric Tree
 
-Merge K Sorted Lists (LC 23)
+LC 102 – Level Order Traversal
 
-Median of Data Stream (LC 295)
+LC 236 – Lowest Common Ancestor
 
-Segment Tree / Fenwick → Range Sum Query (LC 307)
+LC 124 – Binary Tree Maximum Path Sum
 
-10. Strings & Tries
+LC 297 – Serialize and Deserialize Binary Tree
 
-Implement Trie (LC 208)
 
-Word Search II (LC 212)
+8️⃣ Binary Search Trees (Day 27-29)
 
-Longest Common Prefix (LC 14)
+LC 98 – Validate BST
 
-Rabin-Karp / KMP → Implement strstr (LC 28)
+LC 700 – Search in BST
 
-Longest Duplicate Substring (LC 1044)
+LC 701 – Insert into BST
+
+LC 230 – Kth Smallest in BST
+
+LC 235 – LCA of BST
+
+
+9️⃣ Heaps & Priority Queues (Day 30-32)
+
+LC 215 – Kth Largest Element
+
+LC 347 – Top K Frequent Elements
+
+LC 23 – Merge k Sorted Lists
+
+LC 295 – Find Median from Data Stream
+
+LC 973 – K Closest Points to Origin
+
+
+🔟 Hashing & Prefix Techniques (Day 33-35)
+
+LC 560 – Subarray Sum = K
+
+LC 523 – Continuous Subarray Sum
+
+LC 525 – Contiguous Array
+
+LC 560 – Subarray Sum Equals K
+
+LC 525 – Contiguous Array
+
+
+1️⃣1️⃣ Dynamic Programming (Day 36-44)
+
+Subpatterns: 1D, 2D, Subset, String, LIS
+
+LC 70 – Climbing Stairs
+
+LC 198 – House Robber
+
+LC 322 – Coin Change
+
+LC 300 – Longest Increasing Subsequence
+
+LC 1143 – Longest Common Subsequence
+
+LC 72 – Edit Distance
+
+LC 139 – Word Break
+
+LC 494 – Target Sum
+
+LC 518 – Coin Change 2
+
+LC 62 – Unique Paths
+
+LC 64 – Minimum Path Sum
+
+
+1️⃣2️⃣ Graphs (Day 45-52)
+
+Topics: BFS, DFS, TopoSort, Dijkstra, Union-Find
+
+LC 200 – Number of Islands
+
+LC 133 – Clone Graph
+
+LC 207 – Course Schedule
+
+LC 210 – Course Schedule II
+
+LC 994 – Rotting Oranges
+
+LC 417 – Pacific Atlantic Water Flow
+
+LC 547 – Number of Provinces
+
+LC 684 – Redundant Connection
+
+LC 127 – Word Ladder
+
+LC 1631 – Path With Minimum Effort
+
+LC 778 – Swim in Rising Water
+
+
+1️⃣3️⃣ Bit Manipulation (Day 53-54)
+
+LC 136 – Single Number
+
+LC 137 – Single Number II
+
+LC 260 – Single Number III
+
+LC 191 – Number of 1 Bits
+
+LC 190 – Reverse Bits
+
+LC 231 – Power of Two
+
+LC 338 – Counting Bits
+
+LC 201 – Bitwise AND of Numbers Range
+
+
+1️⃣4️⃣ Tries / Strings (Day 55-57)
+
+LC 208 – Implement Trie
+
+LC 211 – Add and Search Word
+
+LC 212 – Word Search II
+
+LC 648 – Replace Words
+
+LC 820 – Short Encoding of Words
+
+
+1️⃣5️⃣ Segment Tree / Advanced Topics (Day 58-60)
+
+LC 307 – Range Sum Query – Mutable
+
+LC 238 – Product of Array Except Self
+
+LC 493 – Reverse Pairs
+
+LC 218 – The Skyline Problem
+
