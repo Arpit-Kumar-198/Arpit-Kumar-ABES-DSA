@@ -30,6 +30,6 @@ int main(){
 
         8. Undirected Complete graph edges = vC2 = v! / (2! * (v-2)!)
 
-        9. Directed Cmplete Graph edges = v * |v-1|                     (max)
+        9. Directed Complete Graph edges = v * |v-1|                     (max)
     */
 }

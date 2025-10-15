@@ -29,7 +29,7 @@ LC 567 – Permutation in String
 
 LC 438 – Find All Anagrams in a String 
 
-LC 239 – Sliding Window Maximum *
+LC 239 – Sliding Window Maximum 
 
 LC 209 – Minimum Size Subarray Sum 
 
@@ -40,7 +40,7 @@ LC 904  – Fruits in Basket
 
 LC 560 – Subarray Sum Equals K (core prefix sum + hashmap pattern)
 
-LC 523 – Continuous Subarray Sum (prefix sum with modulo trick)
+LC 523 – Continuous Subarray Sum (prefix sum with modulo hashmap pattern) trick
 
 LC 974 – Subarray Sums Divisible by K (pattern extension of )
 
