@@ -1,46 +1,39 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool valid(int x, int y, int z) {
-    
-    if(x%z != 0 && y%z != 0) return true;
-    return false;
-}
+bool checkSubarraySum(vector<int>& nums, int k) {
+        int n = nums.size();
+       
+
+        vector<int> prefix(n);
+        prefix[0] = nums[0];
+        int pre = prefix[0];
+
+        for(int i = 1; i < n; i++){
+            prefix[i] = nums[i]+pre;
+            pre = prefix[i];
+        }
+        unordered_map<int,int> mp; 
+        
+        for(int i = 0; i < n; i++){
+            if(prefix[i] % k == 0 && i > 0) return true;
+            if(mp.find(prefix[i]%k) != mp.end()){
+                if(i - mp[prefix[i]%k] > 1)
+                return true;
+            }
+            if(i==0) mp[prefix[i]%k] = i;
+            else if(mp.count(prefix[i]%k) == 0 && prefix[i] != prefix[i-1]) mp[prefix[i]%k] = i;
+            
+        }
+        for(auto it : mp)
+            cout << it.first << " " << it.second << endl;
+        return false;
+    }
 
 int main() {
-   
-    int t;
-    cin >> t;
-    
-    while(t--) {
-        int n;
-        cin >> n;
-        vector<int> a(n);
-        
-        for(int i = 0; i < n; i++) {
-            cin >> a[i];
-        }
-        sort(a.rbegin(),a.rend());
-       
-        int z = a[0];
-        
-        bool flag = true;
-        for(int i = 1; i < n; i++){
-            if(a[i] != a[i-1]) {
-                flag = false;
-                break;
-            }
-        }
-        if(flag == true) cout << a[0]-1 << endl;
-        else{
-            while(z > 0 && !valid(a[0],a[1],z)){
-                z--;
-            }
-            cout << z << endl;
-        }
-        
-        
-    }
-    
+
+    vector<int> a = {5,6,6};
+
+    cout << checkSubarraySum(a, 6);
     return 0;
 }
