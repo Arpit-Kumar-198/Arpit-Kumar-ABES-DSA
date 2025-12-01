@@ -24,15 +24,34 @@ int main()
 
     /*
         Bike tvs;
-        tvs = honda            shallow copy
+        tvs = honda;                    deep copy (copy assignment operator)
+        OR  Bike tvs = honda;           deep copy (copy constructor)
     */
-    Bike tvs(honda); // or Bike tvs = honda;      // deep copy
-    // now tvs is independent to honda
+    Bike tvs(honda);                   // deep copy (copy constructor)
+    // deep copy means tvs is independent to honda
 
     cout << tvs.milege << " " << tvs.speed << endl;
     honda.speed = 150;
     cout << tvs.milege << " " << tvs.speed << endl;
     cout << honda.milege << " " << honda.speed << endl;
+    
 
     return 0;
 }
+/*
+❌ If you write ANY ONE constructor (ANY type):
+
+✔ parameterized constructor
+✔ copy constructor
+✔ default constructor (your own)
+
+Then C++ will NOT auto-generate the default constructor anymore.
+
+BUT it will still generate:
+
+copy constructor (only if you didn’t write one)
+copy assignment
+destructor
+
+But never the default constructor.
+*/

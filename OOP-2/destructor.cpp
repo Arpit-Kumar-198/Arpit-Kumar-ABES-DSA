@@ -13,7 +13,7 @@ public:
     }
     ~Bike()                             // Destructor
     {
-        cout << "Destructor call hua" << endl;
+        cout << this->speed  << " Destructor call hua" << endl;
     }
 };
 int main()

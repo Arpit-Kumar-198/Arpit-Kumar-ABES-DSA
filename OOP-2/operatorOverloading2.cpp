@@ -14,7 +14,7 @@ public:
     }
 
     // Friend function for operator overloading
-    friend Complex operator+(const Complex&, const Complex&);
+    friend Complex operator+(const Complex&, const Complex& y);
 
     // Function to display complex number
     void display() {

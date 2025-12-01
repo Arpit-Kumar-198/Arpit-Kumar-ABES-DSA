@@ -5,7 +5,7 @@ class A
 public:
     int a_ka_var;
     int a_ka_var2;
-    void show()           
+    virtual void show()           
     {
         cout << "A ka show" << endl;
     }

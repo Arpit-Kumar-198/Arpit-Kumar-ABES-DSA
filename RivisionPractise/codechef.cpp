@@ -32,8 +32,6 @@ bool checkSubarraySum(vector<int>& nums, int k) {
 
 int main() {
 
-    vector<int> a = {5,6,6};
-
-    cout << checkSubarraySum(a, 6);
+    cout << (int)'o';
     return 0;
 }

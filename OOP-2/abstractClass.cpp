@@ -3,9 +3,8 @@ using namespace std;
 class abstract              // this is my abstract class
 {
 public:
-    int abstract_ka_var;
-    // virtual void fuelMethod() = 0;       or
-    virtual void fuelMethod() {}
+    int abstract_ka_var;     
+    virtual void fuelMethod() = 0; // pure virtual function 
 };
 
 // agar class me ek bhi pure virtual fun hua to class abstarct class ban jayegi 

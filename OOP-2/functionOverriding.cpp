@@ -48,6 +48,9 @@ int main()
     b2 = new C;
     b2->show();
 
+    // B *b3;
+    // b3 = &a;         not allowed 
+
     return 0;   
 }
 

@@ -6,26 +6,29 @@ public:
     int milege;
     int speed;
     static int NumOfBike;
-    // Bike (int milege, int speed)        
+    // Bike (int milege, int speed)
     // {
     //     this->milege = milege;
     //     this->speed = speed;
     //     cout << "Contructor call hua " << endl;
+    //     NumOfBike++;
     // }
-    Bike(int m, int s) : milege(m), speed(s){}  // short form
-    
+    Bike(int m, int s) : milege(m), speed(s){
+        NumOfBike++;
+    } // short form
+
      void increaseBike()
     {
         NumOfBike++;
     }
 };
 
-int Bike::NumOfBike = 10;   // scope resolution operator
+int Bike::NumOfBike = 0;   // scope resolution operator
 int main()
 {
     Bike honda(50,90);
     Bike tvs(45,100);
-    // cout << Bike::NumOfBike << endl;
+    cout << honda.NumOfBike << endl;
     honda.NumOfBike = 20; // can be modified but can't be reinitialized
     honda.increaseBike();
     cout << honda.milege << " " << honda.speed << endl;
