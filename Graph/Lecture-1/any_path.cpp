@@ -25,14 +25,13 @@ void displayGraph(){
 }
 
 bool dfs(int curr, int end){
-    if(curr == end)
-        return true;
+    if(curr == end) return true;
+        
     visited.insert(curr); // mark visited
     for(auto neighbour : graph[curr]){
         if(!visited.count(neighbour)){
             bool res = dfs(neighbour,end);
-            if(res)
-                return true;
+            if(res) return true;
         }
     }
     return false;
