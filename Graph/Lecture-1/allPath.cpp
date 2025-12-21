@@ -64,8 +64,10 @@ int main() {
     cin >> x >> y;
     allPath(x,y);
     for(auto it : result){
-        for (int i = 0; i < it.size(); i++)
-            cout << it[i] << " ";
+        for (int i = 0; i < it.size(); i++){
+            if(i != it.size()-1) cout << it[i] << "->";
+            else cout << it[i];
+        }
         cout << "\n";
     }
     return 0;
